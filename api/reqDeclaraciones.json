@@ -1,0 +1,14 @@
+    { 
+      "page":
+        { "type": "integer",
+        "description": "Número de página a mostrar",
+        "example": "1" },
+      "pageSize":
+        { "type": "integer",
+        "description": "Número de registros a mostrar por página, el máximo permitido es 200 y el mínimo 1",
+        "example": "10" },
+      "sort": 
+        {"$ref": "#/components/schemas/reqDeclaraciones_sort"},
+      "query":
+        {"$ref": "#/components/schemas/reqDeclaraciones_query"}
+    }

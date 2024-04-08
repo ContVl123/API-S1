@@ -1,0 +1,1 @@
+ab -n 2000 -c 100 -t 10 -T 'application/json' -p CPDEC-44.json -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRva2VuUzEiLCJqdGkiOiJ6YVRScmYzZiIsInNjb3BlIjoicmVhZCAiLCJpYXQiOjE2MzczNTEyNjYsImV4cCI6MTYzNzM1MTg2Nn0.Z8BaFJfUOOrKuG2hHFsM7ihHhIs-k0QaK_tveDxkIJg' http://192.168.0.30:9006/v2/declaraciones
